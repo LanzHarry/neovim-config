@@ -26,6 +26,7 @@ vim.opt.wrap = false              -- disable line wrap
 vim.opt.termguicolors = true      -- enable true colour in terminal
 vim.opt.updatetime = 300          -- faster completion and diagnostics
 vim.opt.timeoutlen = 500          -- shorten key timeout delay
+vim.opt.mouse = ""                -- disable the mouse to force vim motions
 
 -- undo and backup file behaviour config
 vim.opt.undofile = true           -- persistent undo (stored between sessions)

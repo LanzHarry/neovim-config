@@ -8,8 +8,8 @@ return {
     require("lualine").setup {
         options = {
         theme = "auto",            -- matches your current colorscheme
-        -- section_separators = "",   -- optional cleaner look
-        -- component_separators = "",
+        section_separators = "",   -- optional cleaner look
+        component_separators = "",
       },
     }
   end,
