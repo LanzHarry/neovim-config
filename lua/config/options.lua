@@ -10,6 +10,7 @@ vim.opt.signcolumn = "yes"        -- always show the sign column (for LSP, git, 
 vim.opt.tabstop = 4               -- number of spaces a <Tab> counts for
 vim.opt.shiftwidth = 4            -- indent size for << and >>
 vim.opt.expandtab = true          -- use spaces instead of tabs
+vim.opt.softtabstop = 4           -- number of spaces that replace a <Tab>
 vim.opt.smartindent = true        -- auto-indent new lines
 
 -- search and completion config
@@ -24,7 +25,7 @@ vim.opt.scrolloff = 8             -- keep 8 lines visible above/below cursor
 vim.opt.sidescrolloff = 8         -- same for horizontal movement
 vim.opt.wrap = false              -- disable line wrap
 vim.opt.termguicolors = true      -- enable true colour in terminal
-vim.opt.updatetime = 300          -- faster completion and diagnostics
+vim.opt.updatetime = 100          -- faster completion and diagnostics
 vim.opt.timeoutlen = 500          -- shorten key timeout delay
 vim.opt.mouse = ""                -- disable the mouse to force vim motions
 
