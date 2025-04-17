@@ -1,11 +1,18 @@
 -- ~/.config/nvim/lua/plugins/colorscheme.lua
 return {
   {
-    "folke/tokyonight.nvim",
+    "navarasu/onedark.nvim",
     lazy = false,       -- load immediately on startup
     priority = 1000,    -- make sure it loads before other plugins
     config = function()
-      vim.cmd("colorscheme tokyonight")
+        require('onedark').setup {
+            style = 'darker',
+            highlights = {
+                LineNr = { fg = "#ffffff"},
+                CursorLineNr = { fg = "#ffcc00", bold = true }
+            }
+        }
+        require('onedark').load()
     end,
   },
 }
