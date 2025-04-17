@@ -5,6 +5,7 @@ vim.opt.number = true             -- show absolute line numbers
 vim.opt.relativenumber = true     -- relative line numbers for movement
 vim.opt.cursorline = true         -- highlight the current line
 vim.opt.signcolumn = "yes"        -- always show the sign column (for LSP, git, etc.)
+vim.opt.colorcolumn = "80"          -- highlight column 80 for line length guide
 
 -- indentation and tabs config
 vim.opt.tabstop = 4               -- number of spaces a <Tab> counts for
