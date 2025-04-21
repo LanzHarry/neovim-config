@@ -1,4 +1,3 @@
--- this file is for loading core plugins for neovim
 return {
     -- lualine plugin for custom statusline
     "nvim-lualine/lualine.nvim",
